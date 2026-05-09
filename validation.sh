@@ -8,7 +8,7 @@ PASSWORD=$1
 if [ -z "$PASSWORD" ]; then
     echo "Erreur : aucun mot de passe fourni"
     exit 1
-fi
+fin
 
 # Validation avec CrackLib
 RESULT=$(echo "$PASSWORD" | cracklib-check 2>&1)
@@ -18,4 +18,4 @@ if echo "$RESULT" | grep -q "OK"; then
     echo "✅ Mot de passe validé par CrackLib"
 else
     echo "⚠️  CrackLib : $RESULT"
-fi
+fin
