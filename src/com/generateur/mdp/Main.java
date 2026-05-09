@@ -52,7 +52,7 @@ public class Main {
         System.out.println("🔑 Mots de passe générés");
 
 
-        // Génération en mode rafale
+
         List<String> mdps = generateur.genererRafale(nombre, longueur,
                 majuscules, minuscules, chiffres, symboles);
 
