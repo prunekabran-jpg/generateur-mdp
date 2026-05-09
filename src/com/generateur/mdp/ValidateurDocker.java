@@ -3,12 +3,8 @@ package com.generateur.mdp;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-/**
- * Classe responsable de la validation des mots de passe via un conteneur Docker.
- * Utilise CrackLib dans un conteneur Docker pour vérifier la robustesse réelle.
- */
+// Amelioration de la communication avec le conteneur Docker
 public class ValidateurDocker {
-
     // Nom de l'image Docker utilisée pour la validation
     private static final String IMAGE_DOCKER = "cracklib-validator";
 
