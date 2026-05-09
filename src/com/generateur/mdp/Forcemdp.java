@@ -6,9 +6,9 @@ package com.generateur.mdp;
  */
 public class Forcemdp {
 
-    /**
-     * Niveaux de force d'un mot de passe
-     */
+
+    //Ajout de criteres supplementaires pour le calcul de force//
+
     public enum Niveau {
         TRES_FAIBLE("Très faible ❌"),
         FAIBLE("Faible ⚠️"),
