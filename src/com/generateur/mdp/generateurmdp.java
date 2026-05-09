@@ -7,8 +7,8 @@ import java.util.List;
 
 
 public class generateurmdp {
+    //  Amelioration de la generation avec verification de longueur minimale
 
-    // Jeux de caractères disponibles
     private static final String MAJUSCULES = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     private static final String MINUSCULES = "abcdefghijklmnopqrstuvwxyz";
     private static final String CHIFFRES = "0123456789";
