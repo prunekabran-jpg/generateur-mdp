@@ -1,4 +1,5 @@
 # Image de base Linux légère
+# Ajout optimisation image Docker pour validation CrackLib
 FROM debian:bullseye-slim
 
 # Installation de CrackLib pour la validation des mots de passe
